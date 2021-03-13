@@ -1,0 +1,37 @@
+.text {
+	font-size: 40px;
+}
+.nav-ul {
+	display: flex;
+}
+.title-section {
+	text-align: center;
+	color: red;
+	padding: 15px;
+	font-size: 30px;
+}
+/*#image {
+	width:;
+}*/
+
+.header-wraper {
+	background-image: url('https://i0.wp.com/www.oakridge.in/wp-content/uploads/2020/02/Sample-jpg-image-500kb.jpg');
+	height: 800px;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.navigation-fixed {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	background-color: transparent;
+}
+.active {
+	background-color: red;
+}
